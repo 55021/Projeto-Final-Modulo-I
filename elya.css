@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #5F96B2;
+}
+
+main {
+    width: 100vw;
+    height: 100%;
+    font-family: 'VT323', monospace;
+    background-image: url("bginicial1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personagem {
+    width: 80vw;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #FFFFFF;
+    border: 2px solid #162C2E;
+}
+
+.foto-personagem {
+    grid-row-start: 1;
+    grid-row-end: end;
+    align-self: center;
+    justify-self: center;
+    border: 2px solid #162C2E;
+}
+
+.texto-fase {
+    font-size: 1.3rem;
+}
+
+.select {
+    align-self: center;
+    justify-self: center;
+    width: 30%;
+    height: 60%;
+    border: 2px solid #162C2E;
+    background-color: #FFFFFF;
+    font-family: 'VT323', monospace;
+    font-size: 1.3rem;
+}
+
+.select:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #CDC6CC;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.6rem;
+    font-family: 'VT323', monospace;
+}
