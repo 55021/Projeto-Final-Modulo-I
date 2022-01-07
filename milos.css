@@ -78,6 +78,7 @@ footer {
     main {
         height: 100vh;
     }
+    
     .personagem {
         height: 87vh;
         display: flex;
