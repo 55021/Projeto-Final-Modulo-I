@@ -1,4 +1,4 @@
-## Projeto de encerramento do módulo 1: Jogo de escolhas
+## Projeto de encerramento do módulo 1: Jogo de escolhas 🐝
 
 #### Introdução:
 
@@ -31,3 +31,14 @@ do prompt.
 
 * Criar uma página no githubpages para seu projeto e enviá-la no formulário de entrega
 * Validar as entradas fornecidas pelas pessoas jogadoras com base nos valores possíveis
+
+#### Layout Desktop
+
+![image](https://github.com/55021/Projeto-Final-Modulo-I/blob/tentativa-mobile/screenshot-desktop-index.png?raw=true)
+
+![image](https://github.com/55021/Projeto-Final-Modulo-I/blob/tentativa-mobile/screenshot-desktop-gameplay.png?raw=true)
+
+#### Layout Mobile
+
+![image](https://github.com/55021/Projeto-Final-Modulo-I/blob/tentativa-mobile/screenshot-mobile-index.jpg?raw=true)
+![image](https://github.com/55021/Projeto-Final-Modulo-I/blob/tentativa-mobile/screenshot-mobile-gameplay.jpg?raw=true)
