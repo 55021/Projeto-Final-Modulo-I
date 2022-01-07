@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #5F96B2;
+}
+
+main {
+    width: 100vw;
+    height: 100%;
+    font-family: 'VT323', monospace;
+    background-image: url("bgselect.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.personagem {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 2px solid #162C2E;
+}
+
+.foto-personagem {
+    width: 60%;
+    height: auto;
+    border: 2px solid #162C2E;
+}
+
+.nome-personagem {
+    margin: 0;
+}
+
+.bio-personagem {
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.select {
+    border: 2px solid #162C2E;
+    background-color: #FFFFFF;
+    font-family: 'VT323', monospace;
+    font-size: 1.1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.6rem;
+    font-family: 'VT323', monospace;
+}
